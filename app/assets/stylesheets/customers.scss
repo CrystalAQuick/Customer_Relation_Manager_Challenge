@@ -1,3 +1,25 @@
 // Place all the styles related to the customers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.item{
+    width: 200px;
+    height: 500px;
+    border: 1px solid #aaa;
+    padding: 20px;
+    margin: 0 20px;
+    // display: flex;
+    display: inline-block;
+}
+
+.item img {
+    // max-width: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}

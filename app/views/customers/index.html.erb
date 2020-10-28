@@ -1,3 +1,9 @@
 <h1>Customers</h1>
+<p>
+<%= link_to 'Missing Email Customers', missing_path %> |
+<%= link_to 'Customers in Alphabetical Order', alpha_path %>
+</p>
 
+<div class="container">
 <%= render partial: 'customer', collection: @customers %>
+</div>

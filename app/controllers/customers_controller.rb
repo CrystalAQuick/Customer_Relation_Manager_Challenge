@@ -3,6 +3,12 @@ class CustomersController < ApplicationController
     @customers = Customer.all
   end
 
-  def show
+  def alpha
+    @customers = Customer.order("name ASC")
+  end
+
+  def missing
+    @customers = Customer.where(email: "")
+
   end
 end
