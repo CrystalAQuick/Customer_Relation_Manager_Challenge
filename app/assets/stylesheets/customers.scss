@@ -3,16 +3,14 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 .item{
     width: 200px;
-    height: 500px;
+    height: 350px;
     border: 1px solid #aaa;
     padding: 20px;
     margin: 0 20px;
-    // display: flex;
     display: inline-block;
 }
 
 .item img {
-    // max-width: 100%;
     width: 200px;
     height: 200px;
 }
